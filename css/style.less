@@ -1,0 +1,54 @@
+// compress: true
+
+/* Vars */
+@import "vars";
+
+html  {
+  font-size: 15px;
+}
+
+body {
+  margin: 0;
+  background: @white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: @black;
+
+  &.no-scroll{
+    overflow: hidden;
+  }
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+
+p{
+  margin: 0 0 1rem;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* Blocks */
+@import "blocks/container";
+@import "blocks/header";
+@import "blocks/user";
+@import "blocks/nav";
+@import "blocks/intro";
+@import "blocks/social";
+@import "blocks/btn";
+@import "blocks/works";
+@import "blocks/portfolio";
+@import "blocks/work";
+@import "blocks/about";
+@import "blocks/reviews";
+@import "blocks/news";
+@import "blocks/articles";
+@import "blocks/footer";
+@import "blocks/modal";
+@import "blocks/modal-work";
+
+/* Helpers */
+@import "blocks/helpers";
