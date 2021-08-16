@@ -28,6 +28,9 @@ p {
 *:after {
   box-sizing: border-box;
 }
+.modal {
+  display: none;
+}
 /* Blocks */
 .container {
   width: 100%;
